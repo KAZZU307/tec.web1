@@ -5,7 +5,7 @@
 /* { margin: 0; box-sizing: border-box; } */
 
 body { 
-    font-size: 16px; 
+    font-size: 15px; 
     line-height: 32px;
     font-family:Ubuntu,sans-serif;
     color:#1b1a1b;
@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-size: 2rem;
-    color:#0e0d0b;
+    color:#0a0a0a;
 }
 
 h2 {
