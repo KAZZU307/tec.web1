@@ -1,0 +1,25 @@
+body {
+background-color:red;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 10px;
+
+
+}
+h2{
+    background: #000456;
+    color:magenta;
+    font-family: monospace;
+    font-style: italic;
+}
+ p{
+    color:rgb(122, 185, 122);
+}
+h1{
+    
+}
