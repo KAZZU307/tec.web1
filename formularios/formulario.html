@@ -1,39 +1,50 @@
-<!DOCTYPE html>
 <html lang="es"><head>
-	<meta charset="UTF-8">
-	<title>FORMULARIO</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="proyecto/imagenes/logo.JPG" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
-    <a href="formularios.html">Contacto</a> 
-	
 </head>
 <body>
-	<div class="contenedor">
-		<header>
-			<nav>
-				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="acerca-de.html">Acerca de</a></li>
-					<li><a href="#">Productos</a></li>
-					<li><a href="formularioscss.html">Contacto</a></li>
-					
-				</ul>
-			</nav>
-		</header>
-		<section class="main">
-			<form class="formulario" action="">
-				<input type="text" placeholder="Escriba Su Nombre">
-				<input type="text" placeholder="Escriba Su Apellido">
-				<input type="email" placeholder="ingrese su Correo.. ejemplo..> correo@gmail.com">
-				<textarea name="" id="" placeholder="Mensaje"></textarea>
-				<input type="submit" value="Enviar"> <a href="formularios.html"></a> 
-			</form>
-			</section>
-		
-		
-		<footer>
-			<p> Todos los Derechos Reservados</p>
-		</footer>
-	</div>
+
+    <form class="formulario" action="gracias.html">
+        <label for="com">NOMBRE</label>
+        <input type="text" placeholder="ingrese su nombre:" maxlength="30" name="ingrese su nombre" required="">
+        <label for="com">APELLIDO</label>
+        <input type="text" placeholder="ingrese su apellido:" maxlength="30" name="ingrese su apellido" required="">
+        <label for="com">NACIMIENTO</label>
+        <input type="text" placeholder="año de nac.:" maxlength="30" name="nacimiento" required="">
+        <label for="com">CORREO ELECTRONICO</label>
+        <input type="email" placeholder="example@gmail.com">
+        <label for="com">INTRODUZCA UN MENSAJE DE TEXTO</label>
+        <textarea name="comentarios" id="com" placeholder="" cols="30" rows="4"></textarea>
+        <label for="ciudad">ELIJA SU CIUDAD</label>
+        <select name="ciudad" id="ciudad">
+            <option value="Cochabamba">Cochabamba</option>
+            <option value="la Paz">La Paz</option>
+            <option value="Santa Cruz">Santa CRUZ</option>
+            <option value="Santa Cruz">Oruro</option>
+            <option value="Santa Cruz">Potosi</option>
+            <option value="Santa Cruz">Chuquisaca</option>
+            <option value="Santa Cruz">Pando</option>
+            <option value="Santa Cruz">Beni</option>
+        </select><br>
+
+        <label for="sx">SEXO</label>
+        <select name="sexo" id="sx">
+            <option value="hombre">hombre</option>
+            <option value="mujer">mujer</option>
+            <option value="otro">otro</option>
+        </select>
+        
+       
+       
+        <input type="checkbox" name="terminos" id="term">
+        <label for="term">Acepto los terminos</label>
+        <input type="submit" value="ENVIAR">
+    
+    
+    </form>
+ 
 
 </body></html>
